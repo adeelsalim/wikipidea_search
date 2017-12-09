@@ -1,0 +1,41 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnail, #result {
+	width: 50%;
+	margin:  20px auto;
+
+}
+
+.thumbnail {
+	background-color: #ecf0f1;
+}
+
+
+input[type=text], #search {
+   
+    width: 20%;
+    margin: 20px auto;
+    display: block;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 40%;
+}
+
+.well {
+	transition: border 0.4s;
+}
+
+.well:hover {
+	border-left: 20px solid #e74c3c;
+}
+
+
+
+a, a:hover { color: inherit; text-decoration: none; } 
